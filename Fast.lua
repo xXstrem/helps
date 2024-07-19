@@ -4029,7 +4029,7 @@ if not msg.Asasy then
 return send(msg_chat_id,msg_id,'\n*• هذا الامر يخص { '..Controller_Num(1)..' }* ',"md",true)  
 end
 os.execute('rm -rf Fast.lua')
-download('http://45.32.238.150/Mero/Fast.lua','Fast.lua')
+download('https://raw.githubusercontent.com/xXstrem/helps/main/Fast.lua', 'Fast.lua')
 return send(msg_chat_id,msg_id,'\n*• تم تحديث السورس * ',"md",true)  
 end
 if text == 'معلومات التنصيب' or text == 'معلومات التنصيب •' then
